@@ -1,0 +1,98 @@
+html{
+	height:100% !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	overflow: -moz-scrollbars-vertical; height:100%; /* shows scrollbar for firefox */
+	overflow-y:scroll;
+}
+
+body{
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	height:100% !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	font-size: 62.5%;  /* Gives a base of 10px */
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:#354f61;
+}
+
+h1{ color:#c2c2c2; font-size:2.4em; margin:0px;} /* 2.4em = 24px */
+h2{ color:#663333; font-size:1.8em;} /* 1.8em = 18px */
+h3{ color:#663333; font-size:1.6em;} /* 1.6em = 16px */
+h4{ color:#663333; font-size:1.4em;} /* 1.4em = 14px */
+h5{ color:#663333; font-size:1.2em;} /* 1.2em = 12px */
+
+
+#footer_middle span { font-size:9px; color:#FFF; margin-left:25px;}
+
+.rounded-corners {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+a[href^=tel]{color:inherit;text-decoration:none;}
+a { text-decoration:none;}
+.thin { font-weight:lighter}
+.clear { clear:both;}
+
+.menu-50  { -moz-opacity:.50; filter:alpha(opacity=50); opacity:.50; }
+.menu-100 { -moz-opacity:1; filter:alpha(opacity=100); opacity:1; }
+
+.content_underline { width:550px; height:1px; border-bottom: 1px solid #103963; margin-left:40px;}
+
+dt { position: relative; left: 0; top: 1.2em; width: 120px; float:left;}
+dd { margin: 0 0 0 8em; padding: 50px 0 0em 5em; height:30px;}
+td { padding:5px;}
+p, li, td, dd { font-size:1.4em; color:#777777; line-height:16px;}
+#contentHolder_left p, #contentHolder_left h3, #contentHolder_left h4 { padding-left:50px;}
+
+.sublink a:link     {color:#f26522;}
+.sublink a:visited  {color:#f26522;}
+.sublink a:hover    {color:#012f47;}
+.sublink a:active   {color:#012f47;}
+
+a:link     {color:#f26522;}
+a:visited  {color:#f26522;}
+a:hover    {color:#012f47;}
+a:active   {color:#012f47;}
+
+a.imgBorder:link    {color:#e7e8e9;}
+a.imgBorder:active  {color:#e7e8e9;}
+a.imgBorder:visited {color:#e7e8e9;}
+a.imgBorder:hover   {color:#e7e8e9;}
+.imgBorder { cursor:default;}
+
+.sublink { font-size:14px; color:#f26522;}
+
+ul {margin-left: 1em; padding-left:0;}
+
+#wrapper{ width:100%; background-image:url(../images/bg.jpg); background-repeat:repeat-x; }
+#wrapper_inner{ width:1152px; height:800px; margin:auto;}
+
+#containerLogo { width:996px; height:100px; position:relative; margin:auto;}
+#logo { width:120px; height:79px; position:absolute; top:15px; left:25px; z-index:999;}
+
+#navHolder { width:995px; height:45px; margin:auto; background-image:url(../images/bg_menu.jpg); position:relative; z-index:999;}
+#navigationBar { width:700px; height:30px; position:absolute; left:20px; z-index:9999;}
+
+#masthead { width:995px; height:400px; margin:auto;}
+
+#contentBox_top { width:995px; height:21px; background-image:url(../images/contentBox_top.jpg); margin:auto;}
+#contentBox_middle { width:995px; min-height:350px; background-image:url(../images/contentBox_bg.jpg); background-repeat:repeat-y; margin:auto;}
+#contentBox_bottom { width:995px; height:21px; background-image:url(../images/contentBox_bottom.png); margin:auto;}
+#contentHolder_left  { width:900px; float:left; position:relative; margin-right:50px;}
+#contentHolder_right { width:280px; float:left; left:18px; position:relative; top:20px;}
+#imageHolder_home { margin-left:55px;}
+#imageHolder_capabilities { -moz-column-count: 2; -webkit-column-count: 2; display:inline-block; margin-left:55px; }
+#productsHolder  { width:150px; height:230px; margin:auto; }
+#sublink_image {position:absolute; left:31px; top:224px;}
+
+#footer_top { width:995px; height:20px; background-image:url(../images/footer_top.png); margin:auto;}
+#footer_middle { width:995px; background-image:url(../images/footer_bg.png); background-repeat:repeat-y; margin:auto;}
+#footer_copyright { float:left;}
+#footer_accreditation { float:right; margin-right:30px;}
+#footer_accreditation a { border:none; outline:none;}
+#footer_accreditation img { -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px;}
+
+.td_title { color:#012f47; padding-left:10px; vertical-align:text-top; background:#f0f0f0;}
