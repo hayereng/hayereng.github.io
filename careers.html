@@ -1,0 +1,77 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hayer Engineering</title>
+
+<link href="styles/default.css" rel="stylesheet" type="text/css">
+<link href="styles/superfish.css" rel="stylesheet" type="text/css">
+<link href="styles/superfish-navbar.css" rel="stylesheet" type="text/css">
+
+<script src="scripts/jquery-1.2.6.min.js"></script>
+<script src="scripts/ready.js"></script>
+
+<script src="scripts/hoverIntent.js"></script>
+<script src="scripts/jquery.bgiframe.min.js"></script>
+<script src="scripts/superfish.js"></script>
+<script src="scripts/supersubs.js"></script>
+<script src="scripts/jquery.cycle.all.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'scrollDown',
+		sync:   0,    
+		delay: -2000 
+	});
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <div id="wrapper_inner">
+  
+    <!--Logo Container-->
+    <div id="containerLogo">
+      <div><img src="images/logo_header.png" width="996" height="100" /></div>
+      <div id="logo"><a href="index.html"><img src="images/logo.png" width="135" height="70" border="0"/></a></div>
+    </div>
+    
+    <!--Navigation Bar-->
+    <div id="navHolder">
+      <div id="navigationBar"></div>
+    </div>
+    
+    <!--ContentBox-->
+    <div id="contentBox_top"></div>
+    <div id="contentBox_middle" style="height:300px;">
+      <div id="contentHolder_left">
+        <img src="images/title_careers.png" hspace="30">
+        
+        <p>We're always looking out for exceptional machinists, staff, and managers. Hayer Engineering offers robust training and promotion opportunities for standout team members.</p>
+        <p>Please reach out to us with your CV and cover letter. We will contact you if there are any relevant opportunities available.</p>
+        <br />
+        <br />
+        <img src="images/careers.png" hspace="30" height="150">
+        
+      </div>
+
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div id="contentBox_bottom"></div>
+    
+    <!--Footer-->
+    <div id="footer_top"></div>
+    <div id="footer_middle"></div>
+    
+  </div>
+</div>
+
+</body>
+</html>

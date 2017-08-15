@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hayer Engineering</title>
+
+<link href="styles/default.css" rel="stylesheet" type="text/css">
+<link href="styles/superfish.css" rel="stylesheet" type="text/css">
+<link href="styles/superfish-navbar.css" rel="stylesheet" type="text/css">
+
+<script src="scripts/jquery-1.2.6.min.js"></script>
+<script src="scripts/ready.js"></script>
+
+<script src="scripts/hoverIntent.js"></script>
+<script src="scripts/jquery.bgiframe.min.js"></script>
+<script src="scripts/superfish.js"></script>
+<script src="scripts/supersubs.js"></script>
+<script src="scripts/jquery.cycle.all.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'scrollDown',
+		sync:   0,    
+		delay: -2000 
+	});
+});
+</script>
+
+<style>
+ td 	  { padding: 10px 30px;}
+ .TBtitle { background:#013148; color:#FFF;}
+</style>
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <div id="wrapper_inner">
+  
+    <!--Logo Container-->
+    <div id="containerLogo">
+      <div><img src="images/logo_header.png" width="996" height="100" /></div>
+      <div id="logo"><a href="index.html"><img src="images/logo.png" width="135" height="70" border="0"/></a></div>
+    </div>
+    
+    <!--Navigation Bar-->
+    <div id="navHolder">
+      <div id="navigationBar"></div>
+    </div>
+    
+    <!--ContentBox-->
+    <div id="contentBox_top"></div>
+    <div id="contentBox_middle" style="height:450px;">
+      <div id="contentHolder_left">
+        <img src="images/title_capabilities.png" hspace="30">
+        <p>Hayer Engineering has 6 core capabilities: CNC, deep hole, boring, grinding, honing, and burnishing.</p>
+        <br><br>
+		
+        <div class="content_underline"></div><br />
+        
+        <div id="imageHolder_capabilities">
+        
+          <img src="images/capabilities_cnc.png" width="400px">
+          <img src="images/capabilities_deep_hole.png" width="400px">
+          <br />
+          <img src="images/capabilities_boring.png" width="400px">
+          <img src="images/capabilities_grinding.png" width="400px">
+          <br />
+          <img src="images/capabilities_honing.png" width="400px">
+          <img src="images/capabilities_burnishing.png" width="400px">
+          <br />
+
+        </div><br /><br />
+        
+        <div class="content_underline"></div>
+        
+        
+      </div>
+      
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div id="contentBox_bottom"></div>
+    
+    <!--Footer-->
+    <div id="footer_top"></div>
+    <div id="footer_middle"></div>
+    
+  </div>
+</div>
+
+</body>
+</html>
