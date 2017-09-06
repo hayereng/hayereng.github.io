@@ -76,14 +76,14 @@ ul {margin-left: 1em; padding-left:0;}
 #navHolder { width:995px; height:45px; margin:auto; background-image:url(../images/bg_menu.jpg); position:relative; z-index:999;}
 #navigationBar { width:700px; height:30px; position:absolute; left:20px; z-index:9999;}
 
-#masthead { width:995px; height:400px; margin:auto;}
+#masthead { width:995px; height:550px; margin:auto;}
 
 #contentBox_top { width:995px; height:21px; background-image:url(../images/contentBox_top.jpg); margin:auto;}
 #contentBox_middle { width:995px; min-height:350px; background-image:url(../images/contentBox_bg.jpg); background-repeat:repeat-y; margin:auto;}
 #contentBox_bottom { width:995px; height:21px; background-image:url(../images/contentBox_bottom.png); margin:auto;}
 #contentHolder_left  { width:900px; float:left; position:relative; margin-right:50px;}
 #contentHolder_right { width:280px; float:left; left:18px; position:relative; top:20px;}
-#imageHolder_home { margin-left:55px;}
+#imageHolder_home { margin-left:55px; position:relative;}
 #imageHolder_capabilities { -moz-column-count: 2; -webkit-column-count: 2; display:inline-block; margin-left:55px; }
 #productsHolder  { width:150px; height:230px; margin:auto; }
 #sublink_image {position:absolute; left:31px; top:224px;}
